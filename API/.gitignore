@@ -1,0 +1,39 @@
+# .NET Build Artifacts
+bin/
+obj/
+*.csproj.user
+*.suo
+*.user
+
+# Visual Studio / IDE Files
+.vs/
+.vscode/
+*.code-workspace
+.idea/
+
+# Dependency Directories
+packages/
+node_modules/
+
+# Environment and Secrets
+appsettings.Development.json
+appsettings.json
+*.env
+
+# Database Files
+*.mdf
+*.ldf
+
+# Logs
+*.log
+logs/
+
+# Runtime Data
+wwwroot/
+*.db
+
+# macOS
+.DS_Store
+
+# Test Results
+TestResults/
