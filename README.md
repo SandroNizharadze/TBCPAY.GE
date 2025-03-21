@@ -14,6 +14,7 @@ The application supports Google OAuth for user login and provides a secure API f
 
 User Authentication: Register and login with email/password:
 
+<img width="981" alt="955DDA0F-1DE4-4E18-AADA-114845450861" src="https://github.com/user-attachments/assets/66e199a3-3d2e-4496-ac60-f66649e50e9f" />
 <img width="986" alt="A30583EE-BC33-4F91-BDF0-C4C546B8A1BB" src="https://github.com/user-attachments/assets/eb1d1418-c00b-4509-907f-86c0d47c0ee1" />
 <img width="991" alt="9AAB07B3-097F-40EE-AC6E-D3F841CB85EE" src="https://github.com/user-attachments/assets/213bb26b-a54d-4371-a32f-fa5ee3fc03ad" />
 
@@ -58,7 +59,7 @@ Twilio API Block Due to Exposed Secrets
 
 
 <img width="744" alt="image" src="https://github.com/user-attachments/assets/eb78ac08-6fe4-430c-b628-9458dfa39cd7" />
-<img width="981" alt="955DDA0F-1DE4-4E18-AADA-114845450861" src="https://github.com/user-attachments/assets/66e199a3-3d2e-4496-ac60-f66649e50e9f" />
+
 
 
 It's credentials were accidentally exposed in the Git repository, leading Twilio to block my API for security reasons (I didn't knew about such consequence).
