@@ -2472,11 +2472,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/admin/Documents/TBCPay/TBCPAY.GE/Application/Application.csproj",
+      "projectUniqueName": "/Users/admin/Documents/TBCPay_copy/TBCPAY.GE/Application/Application.csproj",
       "projectName": "Application",
-      "projectPath": "/Users/admin/Documents/TBCPay/TBCPAY.GE/Application/Application.csproj",
+      "projectPath": "/Users/admin/Documents/TBCPay_copy/TBCPAY.GE/Application/Application.csproj",
       "packagesPath": "/Users/admin/.nuget/packages/",
-      "outputPath": "/Users/admin/Documents/TBCPay/TBCPAY.GE/Application/obj/",
+      "outputPath": "/Users/admin/Documents/TBCPay_copy/TBCPAY.GE/Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/admin/.nuget/NuGet/NuGet.Config"
@@ -2491,11 +2491,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/admin/Documents/TBCPay/TBCPAY.GE/Domain/Domain.csproj": {
-              "projectPath": "/Users/admin/Documents/TBCPay/TBCPAY.GE/Domain/Domain.csproj"
+            "/Users/admin/Documents/TBCPay_copy/TBCPAY.GE/Domain/Domain.csproj": {
+              "projectPath": "/Users/admin/Documents/TBCPay_copy/TBCPAY.GE/Domain/Domain.csproj"
             },
-            "/Users/admin/Documents/TBCPay/TBCPAY.GE/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/Users/admin/Documents/TBCPay/TBCPAY.GE/Infrastructure/Infrastructure.csproj"
+            "/Users/admin/Documents/TBCPay_copy/TBCPAY.GE/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/Users/admin/Documents/TBCPay_copy/TBCPAY.GE/Infrastructure/Infrastructure.csproj"
             }
           }
         }

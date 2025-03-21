@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MHS7Lk29l9Q=",
+  "dgSpecHash": "XipRx+053lw=",
   "success": true,
-  "projectFilePath": "/Users/admin/Documents/TBCPay/TBCPAY.GE/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/Users/admin/Documents/TBCPay_copy/TBCPAY.GE/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/admin/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

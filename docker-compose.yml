@@ -1,0 +1,42 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - Stripe:SecretKey=sk_test_51R4lGgGhwwhJnKLebvx5CTG8q5hEDwMQJso52fyaaOMAYZeRQJrzZISUMhVBjt3fuSNRrr05DJ1yyNNfKedmXdf7006FNjr4J3
+      - Stripe:PublisheableKey=pk_test_51R4lGgGhwwhJnKLeWrFqJMDKY6dz7ZvCA0V3TE2c48a1HtVngNdtCAzJNoPEBlGaTJdlGvyzcDx8GRtul8kPKCsx00mct5ucDv
+      
+      - Twilio:AccountSid=AC3fe4968eb9794f57eaeb88e7455f929d
+      - Twilio:AuthToken=e42db29421a1644bcf385b5c09f07773
+      - Twilio:PhoneNumber=+12705143487
+      - ConnectionStrings:DefaultConnection=Host=db;Database=tbcpay_db;Username=postgres;Password=Ss@598282954;
+      - Jwt:Secret=kJ9#mP2$vL8@xQ5!wE3&zR6*yT1-uB4!
+      - Google:ClientId=1065271937286-imp6jj5m0eocvsbkeb05qbmal1bv2k3m.apps.googleusercontent.com
+      - Google:ClientSecret=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
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=tbcpay_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Ss@598282954
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - "5001:5000"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  db-data:

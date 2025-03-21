@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/admin/Documents/TBCPay/TBCPAY.GE/Domain/Domain.csproj",
+      "projectUniqueName": "/Users/admin/Documents/TBCPay_copy/TBCPAY.GE/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/Users/admin/Documents/TBCPay/TBCPAY.GE/Domain/Domain.csproj",
+      "projectPath": "/Users/admin/Documents/TBCPay_copy/TBCPAY.GE/Domain/Domain.csproj",
       "packagesPath": "/Users/admin/.nuget/packages/",
-      "outputPath": "/Users/admin/Documents/TBCPay/TBCPAY.GE/Domain/obj/",
+      "outputPath": "/Users/admin/Documents/TBCPay_copy/TBCPAY.GE/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/admin/.nuget/NuGet/NuGet.Config"

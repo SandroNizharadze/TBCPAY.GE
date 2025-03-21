@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MP3ZbFHluOg=",
+  "dgSpecHash": "6ra5v490txk=",
   "success": true,
-  "projectFilePath": "/Users/admin/Documents/TBCPay/TBCPAY.GE/Application/Application.csproj",
+  "projectFilePath": "/Users/admin/Documents/TBCPay_copy/TBCPAY.GE/Application/Application.csproj",
   "expectedPackageFiles": [
     "/Users/admin/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/admin/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
