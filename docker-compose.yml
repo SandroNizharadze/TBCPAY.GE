@@ -8,10 +8,7 @@ services:
     environment:
       - Stripe:SecretKey=
       - Stripe:PublisheableKey=
-      
-      - #Twilio AccountSid=
-      - #Twilio AuthToken=
-      - #Twilio Phone Number=
+      # SECRETS FOR OTP MISSING HERE
       - ConnectionStrings:DefaultConnection=Host=db;Database=tbcpay_db;Username=postgres;Password=;
       - Jwt:Secret=
       - Google:ClientId=
