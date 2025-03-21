@@ -9,9 +9,9 @@ services:
       - Stripe:SecretKey=
       - Stripe:PublisheableKey=
       
-      - Twilio:AccountSid=
-      - Twilio:AuthToken=
-      - Twilio:PhoneNumber=
+      - #Twilio AccountSid=
+      - #Twilio AuthToken=
+      - #Twilio Phone Number=
       - ConnectionStrings:DefaultConnection=Host=db;Database=tbcpay_db;Username=postgres;Password=;
       - Jwt:Secret=
       - Google:ClientId=
